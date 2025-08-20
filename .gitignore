@@ -1,0 +1,14 @@
+# Node
+frontend/node_modules
+frontend/build
+
+# Java
+backend/build
+backend/.gradle
+backend/out
+
+# MacOS
+.DS_Store
+
+# Docker
+*.log
