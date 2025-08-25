@@ -14,9 +14,10 @@ java {
 repositories { mavenCentral() }
 
 dependencies {
-    implementation 'org.springframework.boot:spring-boot-starter-web'        // REST
-    implementation 'org.springframework.boot:spring-boot-starter-validation'// Validación
-    implementation 'org.springframework.boot:spring-boot-starter'           // RestClient
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+    implementation 'org.springframework.boot:spring-boot-starter-validation'
+
+    implementation 'com.google.code.gson:gson:2.11.0'
 
     compileOnly 'org.projectlombok:lombok'
     annotationProcessor 'org.projectlombok:lombok'
